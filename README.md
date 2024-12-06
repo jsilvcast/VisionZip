@@ -25,7 +25,7 @@
 11. [License](#license)
       
 ## News
-- [x] [2024.12.05] We add an [Intro-Video](https://youtu.be/sytaAzmxxpo?si=IieArmQ7YNf2dVyM), providing a step-by-step guide on how to use the demo.
+- [x] [2024.12.05] We add an [Usage-Video](https://youtu.be/9GNIJy4U6-k?si=jcWIJ2O0IjB4aamm), providing a step-by-step guide on how to use the demo.
 - [x] [2024.12.05] We add a new [Demo-Chat](http://202.104.135.156:7860/), where users can manually select visual tokens to send to the LLM and observe how different visual tokens affect the final response. We believe this will further enhance the analysis of VLM interpretability.
 - [x] [2024.11.30] We release [Paper](https://arxiv.org/abs/2412.04467) and this GitHub repo, including code for LLaVA.
 
