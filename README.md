@@ -43,11 +43,11 @@
 <img src="imgs/Teaser.png" alt="Stanford-Alpaca" style="width: 80%; min-width: 300px; display: block; margin: auto;">
 </p>
 
-1. Our VisionZip is a text-agnostic method that outperforms the current state-of-the-art Efficient VLM methods. By retaining only **10%** of visual tokens, it achieves nearly **95%** performance.
-2. VisionZip significantly reduces the prefilling time and the total inference time (with KV cache enabled).
-3. Why does this simple, text-agnostic method outperform text-relevant methods? We conduct an in-depth analysis in the [paper](https://arxiv.org/abs/2412.04467) and provide a [demo](http://202.104.135.156:7860/) to visualize these findings.
-4. Since VisionZip is a text-agnostic method that reduces visual tokens before input into the LLM, it can adapt to **any** existing LLM acceleration algorithms and is applicable to any task that a vanilla VLM can perform, such as multi-turn conversations.
-5. VisionZip can be applied during the **inference stage** (without incurring any additional training cost), the **efficient tuning stage** (to achieve better results), and the **training stage** (saving 2× memory and 2× time).
+1. Our VisionZip achieves state-of-the-art performance among efficient VLM methods. By retaining only **10%** of visual tokens, it achieves nearly **95%** of the performance in training-free mode.
+2. VisionZip can be applied during the inference stage (without incurring any additional training cost), the efficient tuning stage (to achieve better results), and the training stage (**almost no performance degradation，saving 2× memory and 2× training time**).
+3. VisionZip significantly reduces the prefilling time and the total inference time (with KV cache enabled).
+4. Why does this simple, text-agnostic method outperform text-relevant methods? We conduct an in-depth analysis in the [paper](https://arxiv.org/abs/2412.04467) and provide a [demo](http://202.104.135.156:7860/) to visualize these findings.
+5. Since VisionZip is a text-agnostic method that reduces visual tokens before input into the LLM, it can adapt to **any** existing LLM acceleration algorithms and is applicable to any task that a vanilla VLM can perform, such as multi-turn conversations.
 
 ## Video
 <p align="center" width="80%">
