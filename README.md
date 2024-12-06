@@ -5,7 +5,7 @@
 # VisionZip: Longer is Better but Not Necessary in Vision Language Models
 
 
-[![Paper](https://img.shields.io/badge/Paper-Arvix%20Link-light)](https://arxiv.org/abs/2411.nan)
+[![Paper](https://img.shields.io/badge/Paper-Arvix%20Link-light)](https://arxiv.org/abs/2412.04467)
 [![Code License](https://img.shields.io/badge/Code%20License-Apache_2.0-yellow.svg)](https://github.com/dvlab-research/VisionZip/blob/main/LICENSE)
 [![Demo](https://img.shields.io/badge/Demo-Chat-red.svg)](http://202.104.135.156:7860/)
 [![Demo](https://img.shields.io/badge/Demo-Visualize%20-green)](http://202.104.135.156:11030/)
@@ -27,9 +27,9 @@
 ## News
 - [x] [2024.12.05] We add an [Intro-Video](https://youtu.be/sytaAzmxxpo?si=IieArmQ7YNf2dVyM), providing a step-by-step guide on how to use the demo.
 - [x] [2024.12.05] We add a new [Demo-Chat](http://202.104.135.156:7860/), where users can manually select visual tokens to send to the LLM and observe how different visual tokens affect the final response. We believe this will further enhance the analysis of VLM interpretability.
-- [x] [2024.11.30] We release [Paper](http://arxiv.org/abs/2411.nan) and this GitHub repo, including code for LLaVA.
+- [x] [2024.11.30] We release [Paper](https://arxiv.org/abs/2412.04467) and this GitHub repo, including code for LLaVA.
 
-**VisionZip: Longer is Better but Not Necessary in Vision Language Models [[Paper](http://arxiv.org/abs/2411.nan)]** <br />
+**VisionZip: Longer is Better but Not Necessary in Vision Language Models [[Paper](https://arxiv.org/abs/2412.04467)]** <br />
 [Senqiao Yang](https://scholar.google.com/citations?user=NcJc-RwAAAAJ),
 [Yukang Chen](https://scholar.google.com/citations?user=6p0ygKUAAAAJ),
 [Zhuotao Tian](https://scholar.google.com/citations?user=mEjhz-IAAAAJ),
@@ -45,7 +45,7 @@
 
 1. Our VisionZip is a text-agnostic method that outperforms the current state-of-the-art Efficient VLM methods. By retaining only **10%** of visual tokens, it achieves nearly **95%** performance.
 2. VisionZip significantly reduces the prefilling time and the total inference time (with KV cache enabled).
-3. Why does this simple, text-agnostic method outperform text-relevant methods? We conduct an in-depth analysis in the [paper](https://nan) and provide a [demo](http://202.104.135.156:7860/) to visualize these findings.
+3. Why does this simple, text-agnostic method outperform text-relevant methods? We conduct an in-depth analysis in the [paper](https://arxiv.org/abs/2412.04467) and provide a [demo](http://202.104.135.156:7860/) to visualize these findings.
 4. Since VisionZip is a text-agnostic method that reduces visual tokens before input into the LLM, it can adapt to **any** existing LLM acceleration algorithms and is applicable to any task that a vanilla VLM can perform, such as multi-turn conversations.
 5. VisionZip can be applied during the **inference stage** (without incurring any additional training cost), the **efficient tuning stage** (to achieve better results), and the **training stage** (saving 2× memory and 2× time).
 
@@ -151,7 +151,15 @@ VisionZip reduces the number of visual tokens per frame, allowing more frames to
 If you find this project useful in your research, please consider citing:
 
 ```
-
+@misc{visionzip,
+      title={VisionZip: Longer is Better but Not Necessary in Vision Language Models}, 
+      author={Senqiao Yang and Yukang Chen and Zhuotao Tian and Chengyao Wang and Jingyao Li and Bei Yu and Jiaya Jia},
+      year={2024},
+      eprint={2412.04467},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2412.04467}, 
+}
 ```
 
 
