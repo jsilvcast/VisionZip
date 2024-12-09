@@ -1,11 +1,12 @@
 <p align="center" width="100%">
-<img src="imgs/visionzip.png" alt="Stanford-Alpaca" style="width: 100%; min-width: 300px; display: block; margin: auto;">
+<img src="https://raw.githubusercontent.com/dvlab-research/VisionZip/main/imgs/visionzip.png" alt="Stanford-Alpaca" style="width: 100%; min-width: 300px; display: block; margin: auto;">
 </p>
 
 # VisionZip: Longer is Better but Not Necessary in Vision Language Models
 
 
 [![Paper](https://img.shields.io/badge/Paper-Arvix%20Link-light)](https://arxiv.org/abs/2412.04467)
+[![HF](https://img.shields.io/badge/HF-Discussion-orange)](https://huggingface.co/papers/2412.04467)
 [![Code License](https://img.shields.io/badge/Code%20License-Apache_2.0-yellow.svg)](https://github.com/dvlab-research/VisionZip/blob/main/LICENSE)
 [![Demo](https://img.shields.io/badge/Demo-Chat-red.svg)](http://202.104.135.156:7860/)
 [![Demo](https://img.shields.io/badge/Demo-Visualize%20-green)](http://202.104.135.156:11030/)
@@ -40,7 +41,7 @@
 
 ## Highlights
 <p align="center" width="80%">
-<img src="imgs/Teaser.png" alt="Stanford-Alpaca" style="width: 80%; min-width: 300px; display: block; margin: auto;">
+<img src="https://raw.githubusercontent.com/dvlab-research/VisionZip/main/imgs/Teaser.png" alt="Stanford-Alpaca" style="width: 80%; min-width: 300px; display: block; margin: auto;">
 </p>
 
 1. Our VisionZip achieves state-of-the-art performance among efficient VLM methods. By retaining only **10%** of visual tokens, it achieves nearly **95%** of the performance in training-free mode.
@@ -52,7 +53,7 @@
 ## Video
 <p align="center" width="80%">
   <a href="https://youtu.be/sytaAzmxxpo?si=IieArmQ7YNf2dVyM" target="_blank">
-    <img src="imgs/VisionZip-youtube-video.png" alt="Stanford-Alpaca" style="width: 80%; min-width: 300px; display: block; margin: auto;">
+    <img src="https://raw.githubusercontent.com/dvlab-research/VisionZip/main/imgs/VisionZip-youtube-video.png" alt="Stanford-Alpaca" style="width: 80%; min-width: 300px; display: block; margin: auto;">
   </a>
 </p>
 
@@ -64,7 +65,7 @@ The input [video](https://www.youtube.com/watch?v=I7c1etV7D7g
 
 <p align="center" width="80%">
   <a href="https://www.youtube.com/watch?v=I7c1etV7D7g" target="_blank">
-    <img src="imgs/titanic.png" alt="Stanford-Alpaca" style="width: 80%; min-width: 300px; display: block; margin: auto;">
+    <img src="https://raw.githubusercontent.com/dvlab-research/VisionZip/main/imgs/titanic.png" alt="Stanford-Alpaca" style="width: 80%; min-width: 300px; display: block; margin: auto;">
   </a>
 </p>
 
@@ -72,13 +73,13 @@ It is important to note that the left side shows the vanilla model, which encode
 
 
 <p align="center" width="100%">
-<img src="imgs/speed.gif" alt="Stanford-Alpaca" style="width: 100%; min-width: 300px; display: block; margin: auto;">
+<img src="https://raw.githubusercontent.com/dvlab-research/VisionZip/main/imgs/speed.gif" alt="Stanford-Alpaca" style="width: 100%; min-width: 300px; display: block; margin: auto;">
 </p>
 
 
 ### Visualize Redundancy and Misalignment
 <p align="center" width="100%">
-<img src="imgs/gradio.png" alt="Stanford-Alpaca" style="width: 80%; min-width: 300px; display: block; margin: auto;">
+<img src="https://raw.githubusercontent.com/dvlab-research/VisionZip/main/imgs/gradio.png" alt="Stanford-Alpaca" style="width: 80%; min-width: 300px; display: block; margin: auto;">
 </p>
 
 Explore the visual redundancy and feature misalignment in the above [Demo](http://202.104.135.156:7860/). To run it locally, use the following command:
@@ -141,24 +142,21 @@ model = visionzip(model, dominant=54, contextual=10)
 ### Multi-turn Conversations
 VisionZip, which extracts text-agnostic tokens, is better suited for multi-turn dialogue.
 
-<p align="center"> <img src="imgs/conversation.png" width="80%"> </p>
+<p align="center"> <img src="https://raw.githubusercontent.com/dvlab-research/VisionZip/main/imgs/conversation.png" width="80%"> </p>
 
 ### Longer Videos with More Frames
 VisionZip reduces the number of visual tokens per frame, allowing more frames to be processed. This improves the model's ability to understand longer videos.
-<p align="center"> <img src="imgs/longer-video.png" width="80%"> </p>
+<p align="center"> <img src="https://raw.githubusercontent.com/dvlab-research/VisionZip/main/imgs/longer-video.png" width="80%"> </p>
 
 ## Citation
 If you find this project useful in your research, please consider citing:
 
 ```
-@misc{visionzip,
-      title={VisionZip: Longer is Better but Not Necessary in Vision Language Models}, 
-      author={Senqiao Yang and Yukang Chen and Zhuotao Tian and Chengyao Wang and Jingyao Li and Bei Yu and Jiaya Jia},
-      year={2024},
-      eprint={2412.04467},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV},
-      url={https://arxiv.org/abs/2412.04467}, 
+@article{yang2024visionzip,
+  title={VisionZip: Longer is Better but Not Necessary in Vision Language Models},
+  author={Yang, Senqiao and Chen, Yukang and Tian, Zhuotao and Wang, Chengyao and Li, Jingyao and Yu, Bei and Jia, Jiaya},
+  journal={arXiv preprint arXiv:2412.04467},
+  year={2024}
 }
 ```
 

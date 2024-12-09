@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name="visionzip",
-    version="0.1.1",
+    version="0.1.3",
     packages=find_packages(where='visionzip'),
     author="Senqiao Yang",
     author_email="yangsenqiao.ai@gmail.com",
