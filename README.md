@@ -6,11 +6,11 @@
 
 
 [![Paper](https://img.shields.io/badge/Paper-Arvix%20Link-light)](https://arxiv.org/abs/2412.04467)
-[![HF](https://img.shields.io/badge/HF-Discussion-orange)](https://huggingface.co/papers/2412.04467)
+[![HF](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Discussion-orange)](https://huggingface.co/papers/2412.04467)
 [![Code License](https://img.shields.io/badge/Code%20License-Apache_2.0-yellow.svg)](https://github.com/dvlab-research/VisionZip/blob/main/LICENSE)
 [![Demo](https://img.shields.io/badge/Demo-Chat-red.svg)](http://202.104.135.156:7860/)
 [![Demo](https://img.shields.io/badge/Demo-Visualize%20-green)](http://202.104.135.156:11030/)
-
+<a href='https://huggingface.co/spaces/Senqiao/VisionZip'><img src='https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Demo-blue'></a>
 
 ## TABLE OF CONTENTS
 1. [News](#news)
@@ -26,6 +26,7 @@
 11. [License](#license)
       
 ## News
+- [x] [2024.12.28] With support from Hugging Face, we add our demo on the [Hugging Face Space](https://huggingface.co/spaces/Senqiao/VisionZip), allowing for easy comparison of output results across different model sizes.
 - [x] [2024.12.16] Due to positive feedback on our demo, we have released the VisionZip [Demo-Chat](http://202.104.135.156:7860/) code in a new branch, 'demo-chat'.
 - [x] [2024.12.05] We add an [Usage-Video](https://youtu.be/9GNIJy4U6-k?si=jcWIJ2O0IjB4aamm), providing a step-by-step guide on how to use the demo.
 - [x] [2024.12.05] We add a new [Demo-Chat](http://202.104.135.156:7860/), where users can manually select visual tokens to send to the LLM and observe how different visual tokens affect the final response. We believe this will further enhance the analysis of VLM interpretability.
