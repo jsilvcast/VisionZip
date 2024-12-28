@@ -5,7 +5,7 @@
 # VisionZip: Longer is Better but Not Necessary in Vision Language Models
 
 
-[![Paper](https://img.shields.io/badge/Paper-Arvix%20Link-light)](https://arxiv.org/abs/2412.04467)
+[![Paper](https://img.shields.io/badge/Paper-Arxiv%20Link-light)](https://arxiv.org/abs/2412.04467)
 [![HF](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Discussion-orange)](https://huggingface.co/papers/2412.04467)
 [![Code License](https://img.shields.io/badge/Code%20License-Apache_2.0-yellow.svg)](https://github.com/dvlab-research/VisionZip/blob/main/LICENSE)
 [![Demo](https://img.shields.io/badge/Demo-Chat-red.svg)](http://202.104.135.156:7860/)
