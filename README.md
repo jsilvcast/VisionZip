@@ -26,6 +26,7 @@
 11. [License](#license)
       
 ## News
+- [x] [2025.02.27] VisionZip has been accepted by **CVPR 2025**. :rocket:
 - [x] [2024.12.28] With support from Hugging Face, we add our demo on the [Hugging Face Space](https://huggingface.co/spaces/Senqiao/VisionZip), allowing for easy comparison of output results across different model sizes.
 - [x] [2024.12.16] Due to positive feedback on our demo, we have released the VisionZip [Demo-Chat](http://202.104.135.156:7860/) code in a new branch, 'demo-chat'.
 - [x] [2024.12.05] We add an [Usage-Video](https://youtu.be/9GNIJy4U6-k?si=jcWIJ2O0IjB4aamm), providing a step-by-step guide on how to use the demo.
