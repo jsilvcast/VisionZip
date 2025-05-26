@@ -78,7 +78,7 @@ We report some results below. "70%" indicates retaining 70% of visual tokens per
 
 
 
-| Retain Ratio | mme  | mmvet | ocrbench | pope | realworld | docvqa | MathVerse |
+| Retain Ratio | MME  | MMVet | OCRBench | POPE | RealWorldQA | DocVQA | MathVerse |
 | ------------ | ---- | ----- | -------- | ---- | --------- | ------ | --------- |
 | 100%         | 2316 | 61.6  | 81.5     | 86.7 | 68.6      | 95.1   | 46.3      |
 | 70%          | 2334 | 60.0  | 80.9     | 86.4 | 68.2      | 94.5   | 45.8      |
