@@ -4,6 +4,10 @@
 
 However, we observed that **Qwen2.5VL already uses PatchMerger** for visual token compression. As a result, the performance gain from VisionZip is less striking compared to LLaVA. We will continue to explore improvements and welcome contributions or suggestions from the community.
 
+## Update
+**[05.27]** I just discovered that community member [@Hanjiangli](https://github.com/Hanjiangli) has also implemented a version of VisionZip for Qwen2VL: [VisionZip-Qwen2VL](https://github.com/Hanjiangli/VisionZip-Qwen2VL).  Many thanks for the contribution!
+
+
 ---
 ## Training
 
