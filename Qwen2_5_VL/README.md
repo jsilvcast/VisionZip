@@ -19,7 +19,7 @@ to
 from qwen2_5vl_visionzip import Qwen2_5_VLForConditionalGeneration
 ```
 
-To control the number of dominant and contextual visual tokens, modify the code at line 1995:
+To control the number of dominant and contextual visual tokens, modify the code at [line 1916](https://github.com/dvlab-research/VisionZip/blob/68993a31d4f704498a0cc1f0f026754467be65e2/Qwen2_5_VL/qwen2_5vl_visionzip.py#L1916):
 
 ```python
 dominant_num = int(0.45 * attn_logits.size(0))
@@ -45,7 +45,7 @@ to
 from qwen2_5vl_visionzip import Qwen2_5_VLForConditionalGeneration
 ```
 
-Make the same adjustment to the dominant/contextual token selection logic at line 1995:
+Make the same adjustment to the dominant/contextual token selection logic at line [line 1916](https://github.com/dvlab-research/VisionZip/blob/68993a31d4f704498a0cc1f0f026754467be65e2/Qwen2_5_VL/qwen2_5vl_visionzip.py#L1916):
 ```python
 dominant_num = int(0.45 * attn_logits.size(0))
 contextual_num = max(int(0.05 * attn_logits.size(0)), 1)
